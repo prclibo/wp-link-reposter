@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Link Reposter v0.1\n"
+"POT-Creation-Date: 2013-09-14 20:31-0800\n"
+"PO-Revision-Date: 2013-09-14 20:33-0800\n"
+"Last-Translator: \n"
+"Language-Team: Bo Li <prclibo@gmail.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__;_n:1,2;_x:1,2c;ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../lr-edit.php:27
+msgid ""
+"You do not have the permission to publish yet. <br/>You are always welcome "
+"to contact the admin to get the permission"
+msgstr "抱歉您目前没有发布文章的权限，欢迎联系管理员获得发布文章的权限：）"
+
+#: ../lr-edit.php:50
+msgid "You are not allowed to edit this post."
+msgstr ""
+
+#: ../lr-edit.php:132 ../lr-edit.php:289
+msgid "Press This"
+msgstr ""
+
+#: ../lr-edit.php:293
+msgid "Save Draft"
+msgstr ""
+
+#: ../lr-edit.php:295
+msgid "Publish"
+msgstr ""
+
+#: ../lr-edit.php:298
+msgid "Submit for Review"
+msgstr ""
+
+#: ../lr-edit.php:308
+msgid "Post Format:"
+msgstr ""
+
+#: ../lr-edit.php:323
+msgid "Categories"
+msgstr ""
+
+#: ../lr-edit.php:329
+msgid "Most Used"
+msgstr ""
+
+#: ../lr-edit.php:345
+msgid "You cannot modify this Taxonomy."
+msgstr ""
+
+#: ../lr-edit.php:351
+#, php-format
+msgid "+ %s"
+msgstr ""
+
+#: ../lr-edit.php:373 ../lr-edit.php:377
+msgid "Tags"
+msgstr ""
+
+#: ../lr-edit.php:386
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: ../lr-edit.php:406
+msgid "Your post has been saved."
+msgstr ""
+
+#: ../lr-edit.php:407
+msgid "View post"
+msgstr ""
+
+#: ../lr-edit.php:408
+msgid "Edit Post"
+msgstr ""
+
+#: ../lr-edit.php:409
+msgid "Close Window"
+msgstr ""
+
+#: ../lr-edit.php:439
+msgid "via "
+msgstr ""
+
+#: ../lr-edit.php:447
+msgid "Add:"
+msgstr ""
+
+#: ../lr-edit.php:469
+msgid "URL"
+msgstr ""
+
+#: ../lr-edit.php:472
+msgid "Description"
+msgstr ""
+
+#: ../link-reposter.php:48
+msgid "Extract content from a user input link and repost it"
+msgstr "从用户输入链接中提取文章内容并转载"
+
+#: ../link-reposter.php:54 ../link-reposter.php:116
+msgid "Link Reposter"
+msgstr "链接转载器"
+
+#: ../link-reposter.php:81
+msgid "Put the link to repost an article"
+msgstr "在这里粘贴要转载文章的链接"
+
+#: ../link-reposter.php:88
+msgid "Repost external article by pasting the link here."
+msgstr "粘贴外部文章地址，转载至本站"
+
+#: ../link-reposter.php:121
+msgid "Title:"
+msgstr "标题"
+
+#: ../lr-redirect.php:21
+msgid "This article is reposted from"
+msgstr "本文转载自"
+
+#: ../lr-redirect.php:30
+msgid "Cannot extract content from the following link. "
+msgstr "无法从下列链接中提取文章"
+
+#: ../lr-redirect.php:32
+msgid "Please try again or check your link. "
+msgstr "请重试或检查链接"
+
+#: ../lr-404.php:7
+msgid "Unable to extract content from the url:"
+msgstr ""
