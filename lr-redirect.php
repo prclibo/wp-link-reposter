@@ -11,6 +11,10 @@ $xml = simplexml_load_string($xml_string);
 $content = $xml->channel->item->description;
 $title = $xml->channel->item->title;
 
+// Remove html comments because they make wordpress 
+// publish in a wrong format
+$content = preg_replace('/<!--(.|\n|\r)*?-->/', '', $content);
+
 require_once(dirname(__FILE__) . '/../../../wp-load.php');
 if (strlen($title) > 0) {
     $url_string = $_GET['url'];
