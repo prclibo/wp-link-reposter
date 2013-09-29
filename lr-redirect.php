@@ -2,10 +2,15 @@
 
 $_GET['max'] = 1; 
 
-ob_start(); 
-require(dirname(__FILE__) . '/full-text-rss/makefulltextfeed.php'); 
-$xml_string = ob_get_clean(); 
+// ob_start(); 
+// require(dirname(__FILE__) . '/full-text-rss/makefulltextfeed.php'); 
+// $xml_string = ob_get_clean(); 
 
+$cmd = 'http://ftr.fivefilters.org/makefulltextfeed.php?url=' . $_GET['url'] . '&max=' . $_GET['max'];
+$ch = curl_init($cmd);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+$xml_string = curl_exec($ch);
+curl_close($ch);
 
 $xml = simplexml_load_string($xml_string);
 $content = $xml->channel->item->description;
